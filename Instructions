@@ -1,0 +1,29 @@
+• Write a C code which does the following:
+• Your program will read a file named input.txt
+• input.txt contains single line text. The text describes a tree structure. It follows the Newick format rules.
+But there are simplifications and/or modifications:
+– Each node is represented by a single character. They are separated by comma. Branching is described by
+matching parentheses.
+– The length of the text will not be greater than 250
+• Below is an example of a tree description:
+(A,(c,B,e),K,D,e,(f,(d,F)))
+• This tree can be visualized as follows:
+-A
+--c
+--B
+--e
+-K
+-D
+-e
+--f
+---d
+---F
+• Another example:
+(A,(A,A,(A),A),A)
+• Visualization:
+-A
+--A
+--A
+---A
+--A
+-A
